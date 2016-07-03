@@ -26,7 +26,7 @@ window.onload = function() {
     'I\'m Nikita',
     'I code things on the backend',
     'You can contact me at <a href="mailto:ngalayko@gmail.com">ngalayko@gmail.com</a>',
-    '<a target="_blank" href="https://vk.com/ngalayko">vk.com/ngalayko</a><br><a target="_blank" href="https://github.com/ngalayko">github.com/ngalayko</a><br><a target="_blank" href="https://telegram.me/galayko">telegram.me/galayko</a><br><a target="_blank" href="https://instagram.com/ngalayko">instagram.com/ngalayko</a><br><a target="_blank" href="https://twitter.com/ngalayko">twitter.com/ngalayko</a><br><a target="_blank" href="https://facebook.com/galaykonik">facebook.com/galaykonik</a>',
+    '<a target="_blank" href="https://vk.com/ngalayko">vk.com/ngalayko</a><br><a target="_blank" href="https://github.com/ngalayko">github.com/ngalayko</a><br><a target="_blank" href="https://telegram.me/ngalayko">telegram.me/ngalayko</a><br><a target="_blank" href="https://instagram.com/ngalayko">instagram.com/ngalayko</a><br><a target="_blank" href="https://twitter.com/ngalayko">twitter.com/ngalayko</a><br><a target="_blank" href="https://facebook.com/galaykonik">facebook.com/galaykonik</a>',
     getCurrentTime(),
     '🚶 N.',
     'And thanks <a target="_blank" href="https://github.com/juliangarnier/juliangarnier.com">Julian</a> for this great site template'
