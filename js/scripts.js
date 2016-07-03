@@ -23,12 +23,13 @@ window.onload = function() {
 
   var messages = [
     'Hey there 👋',
-    'I\'m Julian',
-    'I design and code things on the web',
-    'I\'m currently accepting freelance work.<br> You can contact me at <a href="mailto:hello@julian.gr">hello@julian.gr</a>',
-    '<a target="_blank" href="https://twitter.com/juliangarnier">twitter.com/juliangarnier</a><br><a target="_blank" href="https://codepen.io/juliangarnier">codepen.io/juliangarnier</a><br><a target="_blank" href="https://github.com/juliangarnier">github.com/juliangarnier</a>',
+    'I\'m Nikita',
+    'I code things on the backend',
+    'You can contact me at <a href="mailto:ngalayko@gmail.com">ngalayko@gmail.com</a>',
+    '<a target="_blank" href="https://vk.com/ngalayko">vk.com/ngalayko</a><br><a target="_blank" href="https://facebook.com/galaykonik">facebook.com/galaykonik</a><br><a target="_blank" href="https://github.com/ngalayko">github.com/ngalayko</a>',
     getCurrentTime(),
-    '👀 J.'
+    '🚶 N.',
+    'And thanks <a target="_blank" href="https://github.com/juliangarnier/juliangarnier.com">Julian</a> for this great template.'
   ]
 
   var getFontSize = function() {
