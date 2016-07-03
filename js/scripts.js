@@ -26,10 +26,10 @@ window.onload = function() {
     'I\'m Nikita',
     'I code things on the backend',
     'You can contact me at <a href="mailto:ngalayko@gmail.com">ngalayko@gmail.com</a>',
-    '<a target="_blank" href="https://vk.com/ngalayko">vk.com/ngalayko</a><br><a target="_blank" href="https://facebook.com/galaykonik">facebook.com/galaykonik</a><br><a target="_blank" href="https://github.com/ngalayko">github.com/ngalayko</a>',
+    '<a target="_blank" href="https://vk.com/ngalayko">vk.com/ngalayko</a><br><a target="_blank" href="https://github.com/ngalayko">github.com/ngalayko</a><br><a target="_blank" href="https://telegram.me/galayko">telegram.me/galayko</a><br><a target="_blank" href="https://instagram.com/ngalayko">instagram.com/ngalayko</a><br><a target="_blank" href="https://twitter.com/ngalayko">twitter.com/ngalayko</a><br><a target="_blank" href="https://facebook.com/galaykonik">facebook.com/galaykonik</a>',
     getCurrentTime(),
     '🚶 N.',
-    'And thanks <a target="_blank" href="https://github.com/juliangarnier/juliangarnier.com">Julian</a> for this great template.'
+    'And thanks <a target="_blank" href="https://github.com/juliangarnier/juliangarnier.com">Julian</a> for this great site template'
   ]
 
   var getFontSize = function() {
@@ -80,7 +80,7 @@ window.onload = function() {
   }
 
   var sendMessage = function(message, position) {
-    var loadingDuration = (message.length * typingSpeed) + 500;
+    var loadingDuration = (message.replace(/<(?:.|\n)*?>/gm, '').length * typingSpeed) + 500;
     var elements = createBubbleElements(message, position);
     messagesEl.appendChild(elements.bubble);
     messagesEl.appendChild(document.createElement('br'));
@@ -167,7 +167,7 @@ window.onload = function() {
     if (!message) return;
     sendMessage(message);
     ++messageIndex;
-    setTimeout(sendMessages, (message.length * typingSpeed) + anime.random(900, 1200));
+    setTimeout(sendMessages, (message.replace(/<(?:.|\n)*?>/gm, '').length * typingSpeed) + anime.random(900, 1200));
   }
 
   sendMessages();
